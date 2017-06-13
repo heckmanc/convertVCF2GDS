@@ -1,0 +1,62 @@
+{
+  "document_name": "Analysis Common App: convertVCF2GDS_v3",
+  "app_name": "app_convertVCF2GDS_v3.json",
+  "maintainer": "",
+  "maintainer_email": "",
+  "location": "Common_Tools/",
+  "summary": "",
+  "tags": [""],
+  "version": "",
+  "introSpec": {
+	  "app_purpose": "",
+	  "app_use_cases": "",
+	  "app_requirements": "",
+	  "app_output": "",
+	  "app_how_does_it_work": ""
+	},
+  "inputSpec": [
+    {
+      "common": [
+        {
+          "name": "VCF Filename",
+          "class": "array:file",
+          "label": "",
+          "optional": "False",
+          "details": ""
+        },
+        {
+          "name": "File Basename",
+          "class": "string",
+          "label": "",
+          "optional": "False",
+          "details": ""
+        }
+      ]
+    },
+    {
+      "advanced": [
+	    {
+          "name": "",
+		  "class": "",
+		  "label": "",
+		  "optional": "False",
+		  "details": ""
+	    }
+	  ]
+    }
+  ],
+  "outputSpec": [
+    {
+      "name": "Results",
+	  "class": "file",
+	  "label": "",
+	  "details": ""
+	}
+  ],
+  "runSpec": {
+    "details": ""
+  },
+  "cmdLineSpec": {
+    "details": ""
+  }
+}
